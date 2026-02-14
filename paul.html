@@ -49,10 +49,32 @@ body {
   <!-- Romans -->
   <h2 class="w3-border-bottom w3-padding-16">Romans</h2>
 
-  <div class="scripture-card">
-    <div class=" reference w3-xlarge">Romans 5:5</div>
-    <span class="w3-xlarge">And hope maketh not ashamed; because the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us.</span>
+  
+  <div class="scripture-card w3-card w3-hover-shadow" style="cursor:pointer;"
+  onclick="document.getElementById('scriptureModal').style.display='block'">
+    <div class="reference w3-xlarge">Romans 5:5</div>
+    <span class="red-letter w3-xlarge">And hope maketh not ashamed; because the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us.</span>
   </div>
+
+    <!-- Modal -->
+<div id="scriptureModal" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom w3-round-large">
+    
+    <header class="w3-container w3-black">
+      <span onclick="document.getElementById('scriptureModal').style.display='none'"
+            class="w3-button w3-display-topright">&times;</span>
+      
+    </header>
+
+    <div class="w3-container w3-padding-16" style="background: url(pinkrock.png);">
+      <p>
+        <!-- 🔥 PUT YOUR CUSTOM TEXT HERE -->
+        <span class="w3-xlarge w3-text-teal">The Curse Is Death</span><br>
+        <span class="w3-xlarge">And it is going to get better, and God is no respecter of persons.  That is what I love about him, Amen.  He will do for everyone if you walk in obedience to God.</span>
+      </p>
+    </div>
+    </div>
+</div>
 
   <div class="scripture-card">
     <div class=" reference w3-xlarge">Romans 5:8</div>
@@ -201,7 +223,7 @@ body {
   <!-- Galatians -->
   <h2 class="w3-border-bottom w3-padding-16">Galatians</h2>
 
- 
+  
   <div class="scripture-card">
     <div class=" reference w3-xlarge">Galatians 5:6</div>
     <span class="w3-xlarge">For in Jesus Christ neither circumcision availeth any thing, nor uncircumcision; but faith which worketh by love.</span>
@@ -290,7 +312,11 @@ body {
     <span class="w3-xlarge">Peace be to the brethren, and love with faith, from God the Father and the Lord Jesus Christ.</span>
   </div>
 
-  
+  <div class="scripture-card">
+    <div class=" reference w3-xlarge">Ephesians 5:2</div>
+    <span class="w3-xlarge">And walk in love, as Christ also hath loved us, and hath given himself for us.</span>
+  </div>
+
   <div class="scripture-card">
     <div class=" reference w3-xlarge">Ephesians 6:24</div>
     <span class="w3-xlarge">Grace be with all them that love our Lord Jesus Christ in sincerity. Amen.</span>
@@ -484,5 +510,3 @@ body {
 
 </body>
 </html>
-
-
