@@ -240,10 +240,30 @@ body {
     <span class="red-letter w3-xlarge">Greater love hath no man than this, that a man lay down his life for his friends.</span>
   </div>
 
-  <div class="scripture-card">
+  <div class="scripture-card w3-card w3-hover-shadow" style="cursor:pointer;"
+  onclick="document.getElementById('scriptureModal').style.display='block'">
     <div class="reference w3-xlarge">John 15:17</div>
     <span class="red-letter w3-xlarge">These things I command you, that ye love one another.</span>
   </div>
+  <!-- Modal -->
+<div id="scriptureModal" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom w3-round-large">
+    
+    <header class="w3-container w3-black">
+      <span onclick="document.getElementById('scriptureModal').style.display='none'"
+            class="w3-button w3-display-topright">&times;</span>
+      
+    </header>
+
+    <div class="w3-container w3-padding-16" style="background: url(purpleredveinrock.png);">
+      <p>
+        <!-- 🔥 PUT YOUR CUSTOM TEXT HERE -->
+        <span class="w3-xlarge w3-text-teal">Believe The 3rd Work</span><br>
+        <span class="w3-xlarge">Dont you all get a witness, just oh my?  You just love him so.  You could almost scratch, you just love him so and yet you cant just reach out and touch him.  But we are going to just hug him and love him one of these days, because as I say, he is right out here.  He is with us right here in the room, and yet we can’t see, but I can feel his presence.</span>
+      </p>
+    </div>
+    </div>
+</div>
 
   <div class="scripture-card">
     <div class="reference w3-xlarge">John 15:19</div>
