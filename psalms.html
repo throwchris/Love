@@ -102,7 +102,31 @@ body {
 
 <h2 class="w3-border-bottom w3-padding-16">Proverbs</h2>
 
-<div class="scripture-card"><div class=" reference w3-xlarge">Proverbs 1:22</div><span class="w3-xlarge">How long, ye simple ones, will ye love simplicity? and the scorners delight in their scorning, and fools hate knowledge?</span></div>
+<!--<div class="scripture-card"><div class=" reference w3-xlarge">Proverbs 1:22</div><span class="w3-xlarge">How long, ye simple ones, will ye love simplicity? and the scorners delight in their scorning, and fools hate knowledge?</span></div>-->
+<div class="scripture-card w3-card w3-hover-shadow" style="cursor:pointer;"
+  onclick="document.getElementById('scriptureModal').style.display='block'">
+    <div class="reference w3-xlarge">Proverbs 1:22</div>
+    <span class="red-letter w3-xlarge">How long, ye simple ones, will ye love simplicity? and the scorners delight in their scorning, and fools hate knowledge?</span>
+  </div>
+  <!-- Modal -->
+<div id="scriptureModal" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom w3-round-large">
+    
+    <header class="w3-container w3-black">
+      <span onclick="document.getElementById('scriptureModal').style.display='none'"
+            class="w3-button w3-display-topright">&times;</span>
+      
+    </header>
+
+    <div class="w3-container w3-padding-16" style="background: url(purplerock.png);">
+      <p>
+        <!-- 🔥 PUT YOUR CUSTOM TEXT HERE -->
+        <span class="w3-xlarge w3-text-teal">Gods Plan For Man</span><br>
+        <span class="w3-xlarge">Thank you, Lord, for the blood that saves us.  We worship you, Lord.  We adore you, Lord.  We love you, Lord.  Hallelujah, Lord, that you called us to know thee.  For the great plan of salvation, Lord, thank you.</span>
+      </p>
+    </div>
+    </div>
+</div>
 
 <div class="scripture-card"><div class=" reference w3-xlarge">Proverbs 4:6</div><span class="w3-xlarge">Forsake her not, and she shall preserve thee: love her, and she shall keep thee.</span></div>
 
